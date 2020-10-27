@@ -1,0 +1,92 @@
+body {
+    padding: 0;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top-nav{
+    padding: 14px 40px;
+    height: 90px;
+    overflow: hidden;
+}
+/* Tulisan nav bar home dll.  */
+
+.top-nav a{
+    color: rgb(230, 230, 230);
+    padding: 14px 40px;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+}
+/* bayangan saat klik bar atas */
+
+.top-nav a:hover:not(.active){
+    color: #b4b191;
+}
+
+.header {
+    background-image: url(blacklep.jpg);
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+}
+/* navbar atas */
+
+ul {
+    float: right;
+    width: 60%;
+    list-style-type: none;
+    margin-top: 5px;
+}
+/* nvbar kotak */
+
+ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 0.5px solid rgb(185, 57, 53);
+    border-style: hidden;
+    transition: 0.5s;
+}
+
+/* Size Icon Atas Kanan */
+.logo img{
+    padding: 10px 20px;
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+/* Setingaan Nama WEB Pojok kiri */
+
+.header-logo {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px;
+    float: left;
+}
+
+/* tulisan tengah */
+
+.title {
+    position: absolute;
+    font-size: 15px;
+    letter-spacing: 2px;
+    top: 20%;
+    left: 25%;
+    transform: translate(-50%-50%);
+    color: rgb(230, 230, 230);
+}
+
+
+
+
+
+  
+
+
+
+
+
+

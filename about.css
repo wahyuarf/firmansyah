@@ -1,0 +1,117 @@
+body {
+    padding: 0;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.top-nav {
+    padding: 14px 40px;
+    height: 10px;
+    overflow: hidden;
+}
+/* Tulisan nav bar home dll.  */
+
+.top-nav a {
+    color: #fff;
+    padding: 20px 40px;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* bayangan saat klik bar atas */
+
+.top-nav a:hover:not(.active){
+    color: #851414;
+}
+
+.header {
+    background-image: url(images/backgroundatas.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* navbar atas */
+
+ul {
+    float: right;
+    width: 50%;
+    list-style-type: none;
+    margin-top: 10px;
+}
+/* nvbar kotak */
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    border: 0.5px solid rgb(185, 57, 53);
+    border-style: hidden;
+    transition: 0.5s;
+}
+
+/* Size Icon Atas Kanan */
+.logo img{
+    padding: 10px 50px;
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+/* Setingaan Nama WEB Pojok kiri */
+
+.header-logo {
+    font-family: 'Sriracha', cursive;
+    letter-spacing: 7px;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 23px 90px;
+    float: left;
+}
+/* background tengah */ 
+.hero {
+    background: rgb(229, 226, 226);
+    background-image: url(images/);
+    height: 900px;
+    width: 100%;
+    padding-top: 20px;
+}
+/* tulisan tengah */
+.title {
+  font-size: 60px;
+  padding: 100px 100px;
+  color: rgb(253, 124, 124);
+  letter-spacing: 10;
+  text-align: center;
+  padding: 35px 70px;
+  font-family: 'Caveat', cursive;
+}
+.lesson-wrapper {
+    background: rgb(229, 226, 226);
+    height: 500px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+/* tengah */
+.heading {
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    color: #000000;
+}
+
+.html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+  
+
+

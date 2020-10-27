@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/backgroundlogin.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 720px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+#login-box{
+    width: 350px;
+    height: 420;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.left-box {
+    position: absolute;
+    background-color: rgba(19, 19, 19, 0.021);
+    padding: 70px;
+}
+/* judul login */
+
+h1 {
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 30px;
+    font-weight: 50;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input[type="text"],
+input[type="password"]{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 200px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(7, 7, 7);
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.3s;
+}
+.left-box input[type="text"], input[type="password"]{
+	border: none;
+	border-bottom: 1px solid rgb(214, 10, 10);
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+/* tombol submit */
+
+input[type="submit"]{
+    margin-bottom: 28px;
+    width: 200px;
+    height: 32px;
+    background: #7c7c7c;
+    border: none;
+    border-radius: 10px;
+    color: rgb(172, 33, 33);
+    font-family: sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
